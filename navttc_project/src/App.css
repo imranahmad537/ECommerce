@@ -1,8 +1,33 @@
-/* Colors */
-/* background: #DB4444; btn color */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navbar start */
+
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 0.5px solid lightgray;
+}
+.menu ul{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  
+}
+li{
+  padding-left: 30px;
+}
+
+/* Navbar end */
 
 .container{
-  margin: 70px 70px 70px 0;
+  padding:0 70px 70px 0;
   display: flex;
   align-items: center;
  
@@ -81,6 +106,124 @@ span{
   align-items: center;
   flex-direction: row;
 }
+
+/* Login start */
+
+.loginbtn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.login{
+  background-color: #DB4444;
+  padding: 13px;
+  width: 150px;
+  color: white;
+  border-radius: 6px;
+}
+/* Login end */
+
+
+/* ______________________________________________________________________ */
+
+
+/* Hero section start */
+
+.hero-container{
+  background-color: black;
+  height: 23rem;
+  position: relative;
+  padding: 10px;
+  display: flex;
+  margin: 0 5rem;
+}
+.hero-text{
+  color: white;
+  padding: 5rem;
+}
+.inner-row{
+  display: flex;
+  justify-content: start;
+
+}
+.inner-text h1{
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/* .hero-img img{
+  position: absolute;
+  /* justify-content: center; */
+
+/* Hero section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* #root {
   max-width: 1280px;
